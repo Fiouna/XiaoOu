@@ -1,10 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>应用下载</title>
-</head>
-<body>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Fiouna/XiaoOu/master/manifest.plist">点击开始安装App</a>
-</body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/global.css">
+<title>小欧应用</title>
+<style> 
+body{ text-align:center ; margin: 10} 
+.div{ margin:0 auto; width:400px; height:100px; border:1px solid #F00} 
+.suoping{ display:block; line-height:18px; width:260px; text-align:center; margin:0 auto; padding:2px 8px; font-size:16px; color:#f83636; text-decoration: none;}
+</style> 
+
+</head>        
+<div class="demo">
+    <br><br>
+    <!-- <a>未安装证书请先安装证书并信任<br></a> -->
+    <!-- <a class="suoping">安装过程中需要输入锁屏密码</a> -->
+    <!-- <a href="http://192.168.31.231/ca.crt" class="mt10 btn btn-sn-weixin btn-block">SSL 证书安装</a> -->
+    <!-- <br> -->
+    <!-- <a>软件安装包</a> -->
+    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Fiouna/XiaoOu/master/manifest.plist" class="mt10 btn btn-sn-twitter btn-block">点击安装</a>
+    <br>
+<!--     <a>========图痒修改内容========</a><br>
+    <a>修复草稿箱镜像、新增英文翻译</a>
+	<br>
+	<br> -->
+
+</div>
+
 </html>
