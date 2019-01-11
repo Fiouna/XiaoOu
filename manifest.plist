@@ -13,18 +13,6 @@
 					<key>url</key>
 					<string>https://raw.githubusercontent.com/Fiouna/XiaoOu/master/XiaoOu.ipa</string>
 				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>url</key>
-					<string>https://www.baidu.com/1.png</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>url</key>
-					<string>https://www.baidu.com/2.png</string>
-				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
